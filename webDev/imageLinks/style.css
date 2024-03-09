@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, p {
+    margin-bottom: 10px;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li{
+    margin-bottom: 10px;
+}
